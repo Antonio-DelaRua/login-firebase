@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+        height: 100%;
+      
+        background: #bdc3c7;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    
+    
+   
+     
+}
+
+.form-floating{
+    text-align: start ;
+   
+}
+
+.errorLabel{
+    margin-left: 5px;
+}
+.errorLabel2{
+    margin-top: 5px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 130px;
+    margin-bottom: 15px;
+   
+}
+
