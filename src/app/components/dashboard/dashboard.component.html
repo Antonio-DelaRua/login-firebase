@@ -1,30 +1,240 @@
-<div class="container">
-    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
-      </a>
+<body cz-shortcut-listen="true">
 
-      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="#" class="nav-link px-2 link-dark">Inicio</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Garage</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Wiki</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Sobre mi</a></li>
-      </ul>
-
-      <div class="col-md-3 text-end">
-        <button type="button" class="btn btn-outline-primary me-2" (click)="logout()">Logout</button>
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container">
+      <a class="navbar-brand" href="/RuXx" style="color:aliceblue">RuXx<span style="color:#ea1538">Dev.</span>Site</a>
+      
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
        
       </div>
-    </header>
-    <div class="row featurette">
-        <div class="col-md-7 ">
-          <h2 class="featurette-heading fw-normal lh-1" style="margin-top: 250px;">Bienvenido a<span style="color:red">|          RuXx’S Garage</span></h2>
-          <p class="lead">Un blog donde encontraras todo tipo de información relacionada con el motor</p>
-          <button type="button" class="btn btn-outline-primary me-2" >Garage</button>
-        </div>
-        <div class="col-md-5">
-          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="600" height="600" style="padding-top: 150px;" src="../../../assets/img/Letter-R-Download-Transparent-PNG-Image.png" >
+      <button class="btn btn-primary custom-btn-primary" type="submit" (click)="logout()">Logout</button>
+    </div>
+  </nav>
   
+
+  <main class="container " style="padding-top: 100px;">
+
+
+    <div class="p-4 p-md-5 mb-4 mt-4 rounded text-bg-dark " style="background-image: url('https://webostv.developer.lge.com/images/hero-background.svg'); height: auto;background-repeat: no-repeat; ">
+
+    <!-- Ajustar ! cambiar para que desaparezca en moviles  h1-->
+
+      <h1 class="display-6 text-center" style="font-size: bold;"> Hola!! Soy 
+        <span style="color:rgb(241, 19, 19)">A</span>
+        <span style="color:rgb(194, 70, 12)">n</span>
+        <span style="color:rgb(218, 147, 15)">t</span>
+        <span style="color:rgb(226, 223, 11)">o</span>
+        <span style="color:rgb(116, 155, 10)">n</span>
+        <span style="color:rgb(69, 231, 37)">i</span>
+        <span style="color:rgb(12, 170, 109)">o</span>
+        <span style="color:rgb(16, 160, 148)"> D</span>
+        <span style="color:rgb(37, 149, 224)">e</span>
+        <span style="color:rgb(174, 40, 201)">l</span>
+        <span style="color:rgb(231, 213, 213)">a</span>
+        <span style="color:rgb(197, 19, 241)">R</span>
+        <span style="color:rgb(203, 124, 206)">u</span>
+        <span style="color:rgb(189, 15, 29)">a</span>
+        </h1>
+
+    </div>
+
+    <div class="row mb-2 mt-5" >
+      <div class="col-md-6" >
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 " style="color:#ea1538">Angular</strong>
+            <h3 class="mb-0" style="color:#ea1538">Framework</h3>
+            <div class="mb-1 text-muted" >Antonio DelaRua</div>
+            <p class="card-text mb-auto">Especializado en Angular , mi proceso de aprendizaje fue cursos de Victor Robles en Udemy y la ruta Front-end de OpenBootCamp</p>
+            <a href="https://github.com/Antonio-DelaRua" class="stretched-link">Mas Sobre mis proyectos</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png" >
+
+          </div>
         </div>
       </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 " style="color:#ea1538;">HTML-CSS</strong>
+            <h3 class="mb-0" style="color:#ea1538;">HTML - CSS - TYPESCRIPT</h3>
+            <div class="mb-1 text-muted">Bootstrap-Git-Javascript...</div>
+            <p class="mb-auto">Ademas de los cursos de Angular me he ido formando con todas las herramientas necesarias para poder manejar el framework</p>
+            <a href="#" class="stretched-link">Más Informarción</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img mt-2" width="200" height="200" src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-html-icons-download-14.png" >
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-5">
+      <div class="col-md-8">
+        <h3 class="pb-4 mb-4 fst-italic border-bottom" style="color:aliceblue">
+          Mi Ruta De Aprendizaje
+        </h3>
+
+        <article class="blog-post">
+          <h2 class="blog-post-title mb-1" style="color:aliceblue">Empiezo a interesarme por la Programación</h2>
+          <p class="blog-post-meta"> <a href="#" style="color:aliceblue">Enero 1, 2020 </a></p>
+
+          <p>Empiezo a interesarme por la programación , investigo un poco de HTML hago mis primeros "Hola mundo" , poco a poco voy jugando con CSS, me llamaba mucho la atención porque ya me gustaba el diseñar blogs con photoshop, pero me sobrepasa tanta información y no profundizo.</p>
+          <br>
+          <div class="linea"></div>
+          <h2 class="blog-post-title mb-1" style="color:aliceblue">Elección de que framework me gusta más</h2>
+          <p class="blog-post-meta"> <a href="#" style="color:aliceblue">Marzo 22, 2021 </a></p>
+
+
+          <p>Despues de llevar más de un año con Html y Css, conoci <span style="color:red">Angular</span> estuve comparando este, con React etc.. pero ya sabía que quería aprender <span style="color:red">Angular</span> Me sobrepasa tanta información del framework elegido y decido profundizar en todas las herramientas necesarias para poder manejarlo bien. Empiezo a buscar información de <span style="color:yellow">Javascript</span>, y <span style="color:blue">Typescript</span>. Pero me desvio mucho del camino buscando información de todo lo que se me iba presentando y no tenia conocimiento , como Docker, phyton, symfony.</p>
+          <br>
+          <div class="linea"></div>
+
+          <h2 class="blog-post-title mb-1" style="color:aliceblue">Conozco un poco de Backend Mysql y PHP</h2>
+          <p class="blog-post-meta"> <a href="#" style="color:aliceblue">Septiembre 11, 2021 </a></p>
+
+          <p>Al hacer algunos Cursos de <span style="color:red;">Angular</span> vi como se hacían los CRUD y empeze a investigar sobre las base de datos, me hice mis primeras base de Datos en mysql con Php y PHPmyadmin. Pero me quedo bloqueado en muchos pasos y no acabo de entender ciertas lógicas. Al ver que no avanzaba porque me faltaban conocimientos imprescindibles decidí pedirle ayuda a mi primo "Daniel Urbano" que lleva mas de 7 años en el sector Actualmente trabajando Como Senior Full Stack y me enseño <span style="color:#0BF082;">Open BootCamp</span> , Donde empezo de verdad mi camino como desarrollador. </p>
+          <br>
+          <div class="linea"></div>
+
+          <h2 class="blog-post-title mb-1" style="color:aliceblue">Open BootCamp y Udemy</h2>
+          <p class="blog-post-meta"> <a href="#" style="color:aliceblue">Febrero 27, 2022 </a></p>
+
+          <p>Bueno lo primero Sería dar gracias al equipo de Open BootCamp por sus Cursos , rutas de aprendizaje etc.. Elegi la ruta Front-end de <span style="color:red;">Angular</span>. Iba complementando lo que iba aprendiendo tambien con cursos de Udemy pero ya muy centrado en la ruta que debia seguir. A día de hoy, 05-octubre-2022 sigo dedicandole 16 horas diarias hasta poder lograr mi primer trabajo como Junior =)</p>
+<br>
+      <div class="linea"></div>
+
+
+
+        </article>
+
+        <article class="blog-post">
+
+          <h3 style="color:aliceblue">Cursos Realizados</h3>
+          
+          <table class="table">
+            <thead>
+              <tr style="color:aliceblue">
+                <th>Curso</th>
+                <th>Escuela</th>
+                <th>Profesor</th>
+              </tr>
+            </thead>
+            <tbody >
+              <tr>
+                <td style="color:aliceblue">Front-end Fundamentos de la programación</td>
+                <td style="color:yellow">Open BootCamp</td>
+                <td style="color:aliceblue">Víctor Román Archidona</td>
+              </tr>
+              <tr>
+                <td style="color:aliceblue">Front-end Angular: Html y Css</td>
+                <td style="color:yellow">Open BootCamp</td>
+                <td style="color:aliceblue">Gorka Villar</td>
+              </tr>
+              <tr>
+                <td style="color:aliceblue">Front-end Angular:JavaScript Basico</td>
+                <td style="color:yellow">Open BootCamp</td>
+                <td style="color:aliceblue">Gorka Villar</td>
+              </tr>
+              <tr>
+                <td style="color:aliceblue">Front-end Angular: TypeScript</td>
+                <td style="color:yellow">Open BootCamp</td>
+                <td style="color:aliceblue">Martín San José de Vicente</td>
+              </tr>
+              <tr>
+                <td style="color:aliceblue">Front-end Angular: Angular Básico</td>
+                <td style="color:yellow">Open BootCamp</td>
+                <td style="color:aliceblue">Martín San José de Vicente</td>
+              </tr>
+              <tr>
+                <td style="color:aliceblue">Front-end Angular: Angular Avanzado</td>
+                <td style="color:yellow">Open BootCamp</td>
+                <td style="color:aliceblue">Martín San José de Vicente</td>
+              </tr>
+              <tr>
+                <td style="color:aliceblue">Front-end Angular: Curso de Git</td>
+                <td style="color:yellow">Open BootCamp</td>
+                <td style="color:aliceblue">Víctor Román Archidona</td>
+              </tr>
+              <tr>
+                <td style="color:aliceblue">Curso de Angular 13</td>
+                <td style="color:yellow">Udemy</td>
+                <td style="color:aliceblue">Víctor Robles</td>
+              </tr>
+              <tr>
+                <td style="color:aliceblue">Curso angular desde 0 a experto</td>
+                <td style="color:yellow">Udemy</td>
+                <td style="color:aliceblue">Gorka Villar</td>
+              </tr>
+              <tr>
+                <td style="color:aliceblue">Docker, de principiante a experto</td>
+                <td style="color:yellow">Udemy</td>
+                <td style="color:aliceblue">Ricardo Andre Gonzalez Gomez</td>
+              </tr>
+              <tr>
+                <td style="color:aliceblue">De 0 a Dev : PYTHON</td>
+                <td style="color:yellow">Open BootCamp</td>
+                <td style="color:aliceblue">Víctor Román Archidona</td>
+              </tr>
+              <tr>
+                <td style="color:aliceblue">curso maestro python3: aprende desde 0</td>
+                <td style="color:yellow">Udemy</td>
+                <td style="color:aliceblue">Martín San José de Vicente</td>
+              </tr>
+              <br>
+            </tbody>
+
+
+          </table>
+
+          <p>Sigo Con la intensidad del primer día, ahora voy a empezar con la ruta de backend de Open BootCamp.</p>
+          <br>
+        </article>
+
+
+
+      </div>
+
+      <div class="col-md-4 d-flex justify-content-center " >
+        <div class="position-sticky" style="top: 2rem;">
+          <div class="p-4 mb-3 bg-light rounded">
+            <img src="https://w0.peakpx.com/wallpaper/1021/487/HD-wallpaper-technology-code-programming-programmer.jpg" style="width:350px; ">
+
+          </div>
+
+          <div class="p-4">
+            <h4 class="fst-italic" style="color:#ea1538;">Paginas Web Creadas</h4>
+            <ol class="list-unstyled mb-0">
+              <li><a href="https://ruxxdev.site" class="stretched-link" >RuXxDev.site</a></li>
+              <li><a href="https://durbanod.com" class="stretched-link" target="_blank">Durbanod.com</a></li>
+              <li><a href="https://casaperibocadillo.es" class="stretched-link" target="_blank">Casaperibocadillo.es</a></li>
+              <li><a href="https://malditosilencio.com" class="stretched-link" target="_blank">Malditosilencio.com</a></li>
+              <li><a href="https://github.com/Antonio-DelaRua/RuXx-breaking-bad-wiki" class="stretched-link" target="_blank">Breakingbad wiki</a></li>
+
+            </ol>
+          </div>
+
+          <div class="p-4">
+            <h4 class="fst-italic" style="color:#ea1538;">Mis Redes Sociales</h4>
+            <ol class="list-unstyled">
+              <li><a href="https://github.com/Antonio-DelaRua" class="stretched-link" target="_blank">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/antonio-de-la-rua-fernandez-508b98243/" class="stretched-link" target="_blank">Linkedin</a></li>
+              <li><a href="https://www.facebook.com/antonio.delarua.9" class="stretched-link" target="_blank">Facebook</a></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main><div style="position: static !important;"></div>
+
+
+
+<div>
+    
   </div>
+  </body>
+
